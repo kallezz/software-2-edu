@@ -36,7 +36,7 @@ class Race:
 
     def print_status(self):
         for car in self.cars:
-            print(f"License plate: {car.license_plate} | maximum speed: {car.maximum_speed} km/h | current speed: {car.current_speed} km/h | travelled distance: {car.travelled_distance} km")
+            print(f"License plate: {car.license_plate} | Maximum speed: {car.maximum_speed} km/h | Current speed: {car.current_speed} km/h | Travelled distance: {car.travelled_distance} km")
             print("-------------------------------------------------------------------------------------------------------")
 
 
