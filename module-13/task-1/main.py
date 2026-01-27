@@ -2,6 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
+
 @app.route("/alkuluku/<int:number>")
 def alkuluku(number):
     if number <= 1:
