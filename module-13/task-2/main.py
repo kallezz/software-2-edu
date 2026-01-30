@@ -1,5 +1,3 @@
-import json
-
 from flask import Flask
 import mysql.connector
 
